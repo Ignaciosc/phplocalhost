@@ -1,0 +1,46 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>Page Title</title>
+        <meta charset="utf-8">
+    </head>
+    <body>
+        <form action="files.php" method="post">
+            Nombre: <input type="text" name="nombre"><br><br>
+            E­mail: <input type="text" name="e-mail"><br><br>
+            Cómo te enteraste de este sitio?: <br>
+            <input type="checkbox" name="source" value="Internet"> Internet
+            <input type="checkbox" name="source" value="Amigo" checked> Por un amigo<br><br>
+            Sexo? <br>
+            <input type="radio" name="gender" value="male" checked> Male
+            <input type="radio" name="gender" value="female" checked> Female<br><br>
+            Cómo dormiste anoche? <br>
+            <select>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+              <option value="6">6</option>
+              <option value="7">7</option>
+              <option value="8">8</option>
+              <option value="9">9</option>
+              <option value="10">10</option>
+            </select><br><br>
+              Acepto términos y condiciones <br>
+            <input type="checkbox" name="condition" value="acepto"> Acepto <br><br>
+            <input type="submit">
+        </form>
+    </body>
+</html>
+
+
+<!--
+Agregar al formulario los siguientes inputs:
+a. Agregar un checkbox con opciones que responda a la pregunta “¿Cómo te enteraste de este
+sitio?”.
+b. Agregar un radio button para seleccionar el sexo.
+c. Agregar un select del 1 al 10 que responda a la pregunta “¿Cómo dormiste anoche?”.
+d. Agregar un checkbox para aceptar “Términos y Condiciones”.
+e. Completar el formulario seleccionando varias opciones de los checkbox, y enviarlos a traves
+del metodo POST. ¿Cambió el resultado como esperabas? -->

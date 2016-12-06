@@ -1,0 +1,19 @@
+
+
+
+
+
+
+/*3. Crear un archivo​  categorias.json​  con los siguientes datos:
+
+{“categorias” : [
+{“id”: 1, “nombre”: “Deportes”},
+{“id”: 2, “nombre”: “Historia”},
+{“id”: 3, “nombre”: “Espectáculos”},
+{“id”: 4, “nombre”: “Geografía”},
+{“id”: 5, “nombre”: “Arte”},
+]}
+
+a. Leer el archivo e ​ imprimir​  un checkbox por cada categoría, capaz de ser
+enviado como array en un formulario. El value de cada checkbox será el id y
+el label mostrado a su dere*/
